@@ -4,11 +4,15 @@ export default {
   theme: {
     extend: {
       colors: {
-            primary: "#193d81",
-            secondary: "#4E71FF",
-            accent: "#BBFBFF",
-            button: "#8DD8FF",
+            primary: "#0f172a",
+            button: "#f59e0b",
+            secondary: "#3f3f46",
+            
          },
+      fontFamily: {
+        playfair: ['"Playfair Display"', 'serif'],
+        outfit: ['Outfit', 'sans-serif'],
+      }   
     },
   },
   plugins: [],
